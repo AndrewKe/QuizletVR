@@ -20,22 +20,22 @@ class QuizletVR extends React.Component {
         {
           "key": "California",
           "value": "Sacramento",
-          "url": "https://i.imgur.com/jN4P4XS.jpg"
+          "url": "jN4P4XS.jpg"
         },
         {
           "key": "Oregon",
           "value": "Salem",
-          "url": "https://i.imgur.com/D4gddpJ.jpg"
+          "url": "D4gddpJ.jpg"
         },
         {
           "key": "Alaska",
           "value": "Juneau",
-          "url": "https://i.imgur.com/J6o001O.jpg"
+          "url": "J6o001O.jpg"
         },
         {
           "key": "Hawaii",
           "value": "Honolulu",
-          "url": "https://i.imgur.com/IWNM7Jz.jpg"
+          "url": "IWNM7Jz.jpg"
         }
       ],
       index: 0

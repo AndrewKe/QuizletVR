@@ -38,7 +38,7 @@ export default class Term extends React.Component {
     console.log(this.props.index);
     return (
       <View style>
-        <Pano source={{uri: this.props.card.url}}/>
+        <Pano source={asset(this.props.card.url)}/>
         <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
        style={{width: 1, height: 1}} />
         <Text

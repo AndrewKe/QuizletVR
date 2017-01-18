@@ -5,7 +5,8 @@ import {
   Pano,
   Text,
   View,
-  VrButton
+  VrButton,
+  Scene
 } from 'react-vr';
 
 export default class Welcome extends React.Component {
@@ -18,7 +19,7 @@ export default class Welcome extends React.Component {
     console.log(this.state.textColor);
     return (
       <View>
-      <Pano source={{uri: 'https://i.imgur.com/do1FUwo.jpg'}} style = {{transform: [{rotateY : -85}, {rotateZ: 28}]}}/>
+      <Pano source={asset('do1FUwo.jpg')} style = {{transform: [{rotateY : -85}]}}/>
         <Text
           style={{
             backgroundColor:'transparent',
