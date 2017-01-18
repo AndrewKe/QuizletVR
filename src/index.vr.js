@@ -19,19 +19,23 @@ class QuizletVR extends React.Component {
       cards: [
         {
           "key": "California",
-          "value": "Sacramento"
+          "value": "Sacramento",
+          "url": "http://i.imgur.com/jN4P4XS.jpg"
         },
         {
           "key": "Oregon",
-          "value": "Salem"
+          "value": "Salem",
+          "url": "http://i.imgur.com/D4gddpJ.jpg"
         },
         {
           "key": "Alaska",
-          "value": "Juneau"
+          "value": "Juneau",
+          "url": "http://i.imgur.com/J6o001O.jpg"
         },
         {
           "key": "Honolulu",
-          "value": "Hawaii"
+          "value": "Hawaii",
+          "url": "http://i.imgur.com/J6o001O.jpg"
         }
       ],
       index: 0
@@ -44,7 +48,7 @@ class QuizletVR extends React.Component {
       component = <Term index = {this.state.index} card = {this.state.cards[this.state.index]} onClick = {() => {
         if (this.state.index == 3) {
           this.state.started = false;
-          this.state.index = 0;
+          this.state.index = -1;
         }
         this.setState({index: this.state.index+1})
       }}/>

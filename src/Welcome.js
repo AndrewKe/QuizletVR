@@ -18,7 +18,7 @@ export default class Welcome extends React.Component {
     console.log(this.state.textColor);
     return (
       <View>
-      <Pano source={asset('dc.png')}/>
+      <Pano source={{uri: 'http://i.imgur.com/do1FUwo.jpg'}} style = {{transform: [{rotateY : -85}, {rotateZ: 28}]}}/>
         <Text
           style={{
             backgroundColor:'transparent',
@@ -31,7 +31,7 @@ export default class Welcome extends React.Component {
           }}>
           Welcome to Quizlet VR (US Capitals)!
         </Text>
-        
+
       <VrButton onClick = {() => this.props.onClick()}>
         <Text
           onEnter={() => this.setState({textColor: 'rgba(0, 255, 0, 0.3)'})}
