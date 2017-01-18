@@ -12,6 +12,8 @@ Built with ReactVR.
 
 `npm run bundle`
 
+## Demo
+
 ![Imgur](http://i.imgur.com/oBbB72a.png)
 
 
