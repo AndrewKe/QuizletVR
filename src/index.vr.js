@@ -33,9 +33,9 @@ class QuizletVR extends React.Component {
           "url": "http://i.imgur.com/J6o001O.jpg"
         },
         {
-          "key": "Honolulu",
-          "value": "Hawaii",
-          "url": "http://i.imgur.com/J6o001O.jpg"
+          "key": "Hawaii",
+          "value": "Honolulu",
+          "url": "http://i.imgur.com/IWNM7Jz.jpg"
         }
       ],
       index: 0
