@@ -2,7 +2,7 @@
 
 Quizlet, but in Virtual Reality!
 
-![Imgur](http://i.imgur.com/oBbB72a.png)
+Built with ReactVR.
 
 ## Run
 
@@ -11,3 +11,7 @@ Quizlet, but in Virtual Reality!
 ## Build
 
 `npm run bundle`
+
+![Imgur](http://i.imgur.com/oBbB72a.png)
+
+
