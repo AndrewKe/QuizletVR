@@ -14,6 +14,6 @@ Built with ReactVR.
 
 ## Demo
 
-![Imgur](http://i.imgur.com/oBbB72a.png)
+<a href = "https://andrewke.github.io/QuizletVR/">![Imgur](http://i.imgur.com/oBbB72a.png)</a>
 
 
